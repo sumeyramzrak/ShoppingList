@@ -1,0 +1,13 @@
+--databasede çalıştırılacak
+
+CREATE LOGIN dbuser with password='password'
+CREATE USER dbuser FOR LOGIN dbuser
+
+CREATE LOGIN dbtestuser with password='password'
+CREATE USER dbtestuser FOR LOGIN dbtestuser
+
+EXEC sp_addrolemember 'db_owner', 'dbuser'
+
+--masterda çalıştırılacak--TEST DB OLUŞTURMA YETKİSİ
+
+GRANT CREATE ANY DATABASE TO dbtestuser;

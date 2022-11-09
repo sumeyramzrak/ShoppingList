@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tlp.ShoppingList.Domain\Tlp.ShoppingList.Domain.csproj" />
+    <ProjectReference Include="..\Commands\Tlp.ShoppingList.Management.Commands\Tlp.ShoppingList.Management.Commands.csproj" />
+    <ProjectReference Include="..\Queries\Tlp.ShoppingList.Queries\Tlp.ShoppingList.Management.Queries.csproj" />
+    <ProjectReference Include="..\Tlp.ShoppingList.Data.Request\Tlp.ShoppingList.Data.Request.csproj" />
+  </ItemGroup>
+
+</Project>
