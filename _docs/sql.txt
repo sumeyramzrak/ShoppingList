@@ -11,3 +11,9 @@ EXEC sp_addrolemember 'db_owner', 'dbuser'
 --masterda çalıştırılacak--TEST DB OLUŞTURMA YETKİSİ
 
 GRANT CREATE ANY DATABASE TO dbtestuser;
+
+
+up down arasına ekle
+
+  migrationBuilder.MigrateUsers();
+            migrationBuilder.MigrateLookups();

@@ -9,12 +9,12 @@ namespace Microsoft.EntityFrameworkCore.Migrations
             migrationBuilder.InsertData("Users",//tablo adı
                                         new string[]//kolonlar
                                         {
-                                        "Id", "UserName", "EMail", "Password", "PasswordHash", "VerificationId", "IsBlocked", "IsActive", "IsDeleted", "CreatedAt", "CreatedBy", "ModifiedAt", "ModifiedBy"
+                                        "Id", "UserName", "Email", "Password", "PasswordHash", "VerificationId",  "IsActive", "IsDeleted", "CreatedAt", "CreatedBy", "ModifiedAt", "ModifiedBy"
                                         },
                                         new object[,]//eklenecek veriler
                                         {
                                         //123.
-                                        { ConstantIds.User.AdminId, "admin", "admin@shoppingList.com", "702890088273b69964ada4175d78e184d1bd695daf406e3dec07a25e5b631823", "AdminHashValue!", null, false, true, false, DateTime.Now, null, DateTime.Now, null },
+                                        { ConstantIds.User.AdminId, "admin", "admin@shoppingList.com", "702890088273b69964ada4175d78e184d1bd695daf406e3dec07a25e5b631823", "AdminHashValue!", "702890088273b69964ada4175d78e184d1bd695daf406e3dec07a25e5b631823", true, false, DateTime.Now, null, DateTime.Now, null },
                                         },
                                         schema: "User");
         }

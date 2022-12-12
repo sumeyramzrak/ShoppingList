@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{62A22DD4-1C41-470A-8C84-DC548A4D0D20}"
 	ProjectSection(SolutionItems) = preProject
 		migration.txt = migration.txt
+		sql.txt = sql.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tlp.ShoppingList.Persistence", "Tlp.ShoppingList.Persistence\Tlp.ShoppingList.Persistence.csproj", "{9751ED39-A251-4069-BD9F-ACB5C5AE487D}"
@@ -42,13 +43,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tlp.ShoppingList.DataSeed",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{90E1A86F-6893-4024-A6A2-4CBC94AB5082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlp.ShoppingList.IntegrationTests", "Infrastructure\Tests\Tlp.ShoppingList.IntegrationTests\Tlp.ShoppingList.IntegrationTests.csproj", "{4170DFEE-108B-4404-80BE-336B964A1850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tlp.ShoppingList.IntegrationTests", "Infrastructure\Tests\Tlp.ShoppingList.IntegrationTests\Tlp.ShoppingList.IntegrationTests.csproj", "{4170DFEE-108B-4404-80BE-336B964A1850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlp.ShoppingList.Tests.Common", "Infrastructure\Tests\Tlp.ShoppingList.Tests.Common\Tlp.ShoppingList.Tests.Common.csproj", "{52837952-8D82-4EA6-B7F1-2A6320382B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tlp.ShoppingList.Tests.Common", "Infrastructure\Tests\Tlp.ShoppingList.Tests.Common\Tlp.ShoppingList.Tests.Common.csproj", "{52837952-8D82-4EA6-B7F1-2A6320382B7A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mapper", "mapper", "{1A0189C7-0F0A-4C2F-A406-A8760D3E72ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlp.ShoppingList.Mapper", "Infrastructure\Mapper\Tlp.ShoppingList.Mapper\Tlp.ShoppingList.Mapper.csproj", "{403F5E2F-B643-4D38-9247-34907DF96AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tlp.ShoppingList.Mapper", "Infrastructure\Mapper\Tlp.ShoppingList.Mapper\Tlp.ShoppingList.Mapper.csproj", "{403F5E2F-B643-4D38-9247-34907DF96AFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

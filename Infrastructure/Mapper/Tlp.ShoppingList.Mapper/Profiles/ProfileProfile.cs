@@ -14,7 +14,7 @@ namespace Tlp.ShoppingList.Mapper.Profiles
         public ProfileProfile()
         {
             CreateMap<User, UserListDto>();
-            CreateMap<RegisterUserRequestDto, User>();
+            CreateMap<NewUserRequestDto, User>();
         }
     }
 }

@@ -11,5 +11,6 @@ namespace Tlp.ShoppingList.Services.Abstracts
     public interface IUserService
     {
         Task<List<UserListDto>> GetUsers(CancellationToken cancellationToken);
+        Task<bool> AddUser(NewUserRequestDto data,CancellationToken cancellationToken);
     }
 }

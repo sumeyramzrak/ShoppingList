@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Tlp.ShoppingList.Data.Request.Contracts;
 using Tlp.ShoppingList.Services.Abstracts;
 
 namespace Tlp.ShoppingList.Api.Controllers
@@ -20,6 +21,14 @@ namespace Tlp.ShoppingList.Api.Controllers
         public async Task<IActionResult> GetUsers(CancellationToken cancellationToken)
         {
             var result = await service.GetUsers(cancellationToken);
+            return Ok(result);
+        }
+
+        [HttpPost("add")]
+
+        public async Task<IActionResult> AddUsers(NewUserRequestDto data,CancellationToken cancellationToken)
+        {
+            var result = await service.AddUser(data,cancellationToken);
             return Ok(result);
         }
     }

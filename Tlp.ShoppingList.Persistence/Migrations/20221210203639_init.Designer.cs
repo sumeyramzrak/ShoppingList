@@ -12,7 +12,7 @@ using Tlp.ShoppingList.Persistence;
 namespace Tlp.ShoppingList.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220707020406_init")]
+    [Migration("20221210203639_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

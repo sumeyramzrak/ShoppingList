@@ -29,6 +29,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Tlp.ShoppingList.Application\Tlp.ShoppingList.Application.csproj" />
     <ProjectReference Include="..\Infrastructure\Mapper\Tlp.ShoppingList.Mapper\Tlp.ShoppingList.Mapper.csproj" />
+    <ProjectReference Include="..\Tlp.ShoppingList.DataSeed\Tlp.ShoppingList.DataSeed.csproj" />
     <ProjectReference Include="..\Tlp.ShoppingList.Domain\Tlp.ShoppingList.Domain.csproj" />
   </ItemGroup>
 

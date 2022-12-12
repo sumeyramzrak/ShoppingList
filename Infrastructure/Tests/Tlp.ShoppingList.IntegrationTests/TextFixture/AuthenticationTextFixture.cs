@@ -35,18 +35,18 @@ namespace Tlp.ShoppingList.IntegrationTests
             Assert.That(result, Is.Null);
         }
 
-        [Test]
-        public async Task ICan_Create_User()
-        {
-            var user = new RegisterUserRequestDto
-            {
-                UserName = "New User",
-                EMail = "newuser@mail.com",
-                Password = "qwer"
-            };
-            var result = await Api.Post<RegisterUserRequestDto, bool>("api/authentication/register", user);
-            Assert.That(result, Is.True);
-        }
+        //[Test]
+        //public async Task ICan_Create_User()
+        //{
+        //    var user = new RegisterUserRequestDto
+        //    {
+        //        UserName = "New User",
+        //        EMail = "newuser@mail.com",
+        //        Password = "qwer"
+        //    };
+        //    var result = await Api.Post<RegisterUserRequestDto, bool>("api/authentication/register", user);
+        //    Assert.That(result, Is.True);
+        //}
 
     }
 }

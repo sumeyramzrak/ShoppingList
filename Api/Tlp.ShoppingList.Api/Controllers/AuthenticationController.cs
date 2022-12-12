@@ -23,12 +23,5 @@ namespace Tlp.ShoppingList.Api.Controllers
             var result = await service.LoginUser(data, cancellationToken);
             return Ok(result);
         }
-
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterUserRequestDto data, CancellationToken cancellationToken)
-        {
-            var result = await service.RegisterUser(data, cancellationToken);
-            return Ok(result);
-        }
     }
 }

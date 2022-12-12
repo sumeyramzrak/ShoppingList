@@ -13,6 +13,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<ILookupService, LookupService>();
         services.AddScoped<ISystemParameterService, SystemParameterService>();
         services.AddScoped<ILookupTypeService, LookupTypeService>();
+        services.AddScoped<IListService, ListService>();
 
         var queriesAssembly = AppDomain.CurrentDomain.Load("Tlp.ShoppingList.Management.Queries");
         var commandsAssembly = AppDomain.CurrentDomain.Load("Tlp.ShoppingList.Management.Commands");

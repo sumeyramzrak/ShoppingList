@@ -205,11 +205,10 @@ namespace Tlp.ShoppingList.Persistence.Migrations
                 table: "ShoppingLists",
                 column: "UserID");
 
-            //migrationBuilder.MigrateUsers();
-            //migrationBuilder.MigrateLookups();
-        }
+            migrationBuilder.MigrateUsers();
+            migrationBuilder.MigrateLookups();
 
-       
+        }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
